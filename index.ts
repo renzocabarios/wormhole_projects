@@ -5,6 +5,7 @@ import evm from "@wormhole-foundation/sdk/evm"
 
 const SOLANA_KEY = "";
 const SEPOLIA_KEY = "";
+
 (async () => {
 
 
@@ -48,3 +49,7 @@ const SEPOLIA_KEY = "";
 // ACTIVITY: Bridge -> Send USDC via wallet -> Repeat
 // Repeat the cycle until it returns to the first guy
 // List all the names of the participants
+//
+// Bridge then Send
+//
+// Solana to Sepolia -> Send via Sepolia -> Sepolia to Solana -> Send via Solana | Repeat

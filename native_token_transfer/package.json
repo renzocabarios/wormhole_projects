@@ -1,0 +1,22 @@
+{
+  "name": "native_token_transfer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@wormhole-foundation/sdk": "^0.15.0",
+    "@wormhole-foundation/sdk-definitions-ntt": "^0.4.0",
+    "@wormhole-foundation/sdk-evm-ntt": "^0.4.0",
+    "@wormhole-foundation/sdk-solana-ntt": "^0.4.0"
+  }
+}
